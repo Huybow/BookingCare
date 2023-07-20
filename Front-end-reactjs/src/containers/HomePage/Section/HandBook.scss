@@ -1,0 +1,28 @@
+.handbook-child {
+    .handbook-block {
+        display: flex;
+        .handbook-image {  
+            width: 50%;
+        }
+        .handbook-name {
+            padding: 10px 10px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 15px;
+            cursor: pointer;
+
+            &:hover {
+                color: #45c3d2;
+            }
+        }
+    }
+}
+
+.section-handbook {
+    .section-body {
+        button.slick-arrow.slick-next,
+        button.slick-arrow.slick-prev {
+            top: 40%
+        }
+    }
+}

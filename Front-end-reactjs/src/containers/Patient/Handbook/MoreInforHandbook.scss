@@ -1,0 +1,249 @@
+.more-infor-handbook-container {
+    padding: 0 200px;
+    .more-infor-handbook-all {
+        padding: 20px 0;
+        color: rgba(69, 195, 210, 1.00);
+        font-size: 16px;
+
+        i {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .more-infor-handbook-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+
+        .header-title {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .header-search {
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(245, 245, 245, 1.00);
+            border-radius: 27px;
+            padding: 10px;
+
+            input {
+                font-size: 16px;
+                background: transparent;
+                border: none;
+                outline: none;
+                width: 300px;
+            }
+        }
+    }
+
+    .more-infor-handbook-body {
+        padding-top: 40px;
+        border-top: 1px solid #d5d5d5;
+        margin-bottom: 60px;
+        .handbook-new {
+            margin-bottom: 30px;
+
+            .handbook-new-child {
+                cursor: pointer;
+                width: 25%;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .handbook-new-block {
+                    box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px;
+                    margin: 0 10px;
+                    height: 240px;
+
+                    .handbook-new-image {
+                        height: 60%;
+                        background-size: contain !important;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                    .handbook--new-name {
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        text-align: left;
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: rgb(17, 17, 17);
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+
+        .handbook-outstanding {
+            .handbook-outstanding-title {
+                font-weight: 600;
+                font-size: 24px;
+                border-bottom: 1px solid #d5d5d5;
+                padding: 20px 0;
+            }
+
+            .handbook-outstanding-child {
+                cursor: pointer;
+                padding-top: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 50%;
+                padding: 30px 10px;
+
+                .handbook-outstanding-block {
+                    display: flex;
+
+                    .handbook-outstanding-image {
+                        width: 100%;
+                        height: 175px;
+                        background-size: contain !important;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                    .handbook--outstanding-name {
+                        width: 45%;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: rgb(17, 17, 17);
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .handbook-category {
+        margin-bottom: 30px;
+        margin-top: 50px;    
+        .handbook-category-title {
+            font-weight: 600;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #d5d5d5;
+            padding-bottom: 20px;
+
+            .btn-moreinfor {
+                padding: 8px 15px;
+                background-color: rgb(235, 235, 235);
+                text-align: center;
+                text-transform: uppercase;
+                max-height: 40px;
+                font-size: 11px;
+                border: none;
+            }
+        }
+
+        .handbook-category-body {
+            display: flex;
+            .handbook-category-child {
+                box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px;
+                height: 210px;
+                width: 165px;
+                flex-direction: column;
+                margin: 20px 15px;
+                justify-content: space-around;
+                .handbook-category-block {
+                    height: inherit;
+                    padding: 10px;
+                    align-items: center;
+                   
+                    .handbook-category-image {
+                        margin-top: 10px;
+                        margin-left: 5.60%;
+                        border-radius: 50%;
+                        height: 125px;
+                        width: 125px;
+                        background-size: contain !important;
+                        background-position: center;
+                        &.xuongkhop {
+                            background-image: url('../../../assets/handbook/co-xuong-khop.webp');
+                        }
+                        &.thankinh {
+                            background-image: url('../../../assets/handbook/than-kinh.webp');
+                        }
+                        &.timmach {
+                            background-image: url('../../../assets/handbook/tim-mach.webp');
+                        }
+                        &.tieuhoa {
+                            background-image: url('../../../assets/handbook/tieu-hoa.webp');
+                        }
+                        &.cotsong {
+                            background-image: url('../../../assets/handbook/cot-song.webp');
+                        }
+                        &.taimuihong {
+                            background-image: url('../../../assets/handbook/tai-mui-hong.webp');
+                        }
+
+                    }
+
+                    .handbook--category-name {
+                        padding-top: 20px;
+                        font-size: 16px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .bookingcare-create-handbook {
+        .bookingcare-create-handbook-title {
+            font-weight: 600;
+            font-size: 24px;
+            border-bottom: 1px solid #d5d5d5;
+            padding-bottom: 20px;
+        }
+        .bookingcare-create-handbook-body {
+            margin-top: 20px;
+            display: flex;
+            height: 298px;
+            background-color: rgb(212, 239, 252);
+
+            .bookingcare-create-handbook-child {
+                width: 25%;
+                .bookingcare-create-handbook-image {
+                    height: 140px;
+                    width: 140px;
+                   
+                    margin-top: 36px;
+                    background-repeat: no-repeat;
+                    &.thamvan {
+                        background-image: url('../../../assets/images/ic_process_1.webp');
+                        margin-left: 32%;
+                    }
+                    &.noidung {
+                        background-image: url('../../../assets/images/ic_process_2.webp');
+                        margin-left: 28%;
+                    }
+                    &.capnhat {
+                        background-image: url('../../../assets/images/ic_process_3.webp');
+                        margin-left: 28%;
+                    }
+                    &.thamkhao {
+                        background-image: url('../../../assets/images/ic_process_4.webp');
+                        margin-left: 28%;
+                    }
+                    
+                }
+
+                .bookingcare-create-handbook-name {
+                    font-size: 18px;
+                    color: rgb(40, 49, 63);
+                    font-weight: 700;
+                    margin-top: 25px;
+                    text-align: center;
+                    height: 55px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.more-infor-doctor-container {
+    padding: 0 200px;
+    .more-infor-doctor-all {
+        padding: 20px 0;
+        color: rgba(69,195,210,1.00);
+        font-size: 16px;
+        i {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .more-infor-doctor-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        .header-title {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .header-search {
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(245,245,245,1.00);
+            border-radius: 27px;
+            padding: 10px;
+            input {
+                font-size: 16px;
+                background: transparent;
+                border: none;
+                outline: none;
+                width: 300px;
+            }
+        }
+    }
+
+    .more-infor-doctor-body {
+        border-top: 1px solid #d5d5d5;
+        .more-infor-doctor-child {
+            cursor: pointer;
+            display: flex;
+            border-bottom: 1px solid #d5d5d5;
+            .doctor-image {
+                background-size: cover !important;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                margin: 10px;
+            }
+            .doctor-name {
+                padding-top: 30px;
+                font-size: 16px;
+                line-height: 1.3em;
+                margin: 10px;
+                .doctor-specialty {
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.clinic-child {
+    .clinic-name {
+        padding: 10px 0;
+        cursor: pointer;
+
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+}
+
+.section-medical-facility {
+    .section-body {
+
+        button.slick-arrow.slick-next,
+        button.slick-arrow.slick-prev {
+            top: 40%
+        }
+    }
+}

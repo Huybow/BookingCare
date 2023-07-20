@@ -1,0 +1,20 @@
+.specialty-child {
+    .specialty-name {
+        padding: 10px 0;
+        cursor: pointer;
+
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+}
+
+.section-specialty {
+    .section-body {
+
+        button.slick-arrow.slick-next,
+        button.slick-arrow.slick-prev {
+            top: 40%
+        }
+    }
+}

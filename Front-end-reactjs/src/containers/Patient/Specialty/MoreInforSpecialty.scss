@@ -1,0 +1,60 @@
+.more-infor-specialty-container {
+    padding: 0 200px;
+    .more-infor-specialty-all {
+        padding: 20px 0;
+        color: rgba(69,195,210,1.00);
+        font-size: 16px;
+        i {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .more-infor-specialty-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        .header-title {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .header-search {
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(245,245,245,1.00);
+            border-radius: 27px;
+            padding: 10px;
+            input {
+                font-size: 16px;
+                background: transparent;
+                border: none;
+                outline: none;
+                width: 300px;
+            }
+        }
+    }
+
+    .more-infor-specialty-body {
+        border-top: 1px solid #d5d5d5;
+        .more-infor-specialty-child {
+            cursor: pointer;
+            display: flex;
+            .specialty-image {
+                background-size: cover !important;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 100px;
+                width: 180px;
+                margin: 10px;
+            }
+            .specialty-name {
+                font-size: 14px;
+                line-height: 1.3em;
+                margin: 10px;
+            }
+
+        }
+    }
+}

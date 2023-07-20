@@ -1,0 +1,98 @@
+.doctor-extra-infor-container {
+    padding-left: 15px;
+    padding-top: 55px;
+    .content-up {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 15px;
+        
+        .text-address {
+            text-transform: uppercase;
+            color: #666;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .name-clinic {
+            font-weight: bold;
+            padding: 3px 0;
+            font-size: 13px;
+        }
+
+        .detail-address {
+            font-size: 13px;
+        }
+    }
+
+    .content-down {
+        padding-top: 10px;
+        width: 605px;
+        .short-infor {
+            display: flex;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            .title-price-short {
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #666;
+                font-weight: bold;
+                
+            }
+            .price-short {
+                margin-right: 6px;
+                margin-left: 3px;
+            }
+            .currency {
+                color: black;
+            }
+            .detail {
+                cursor: pointer;
+                color: #45c3d2;
+            }
+        }
+        .title-price {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #666;
+            font-weight: bold;
+        }
+
+        .detail-infor {
+            border: 1px solid #ddd;
+            box-shadow: 0 0 4px 0 rgba(0,0,0,.08);
+            background: #f8f8f8;
+            padding: 5px;
+            .price {
+                padding-bottom: 5px;
+                .right {
+                    float: right;
+                }
+                .left {
+                    
+                }
+            }
+            .note {}
+        }
+
+        .payment {
+            border: 1px solid #ddd;
+            box-shadow: 0 0 4px 0 rgba(0,0,0,.08);
+            background: #eee;
+            padding: 5px;
+            display: flex;
+            .international-prices {
+                text-transform: lowercase;
+                margin-left: 3px;
+            }
+
+        }
+        .hide-price {
+            margin-top: 10px;
+            span {
+                cursor: pointer;
+                color: #45c3d2;
+            }
+        }
+    }
+}

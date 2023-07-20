@@ -1,0 +1,83 @@
+.more-infor-clinic-container {
+    margin: 0 200px;
+    padding-bottom: 20px;
+    .more-infor-clinic-all {
+        padding: 20px 0;
+        color: rgba(69,195,210,1.00);
+        font-size: 16px;
+        i {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .more-infor-clinic-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-left {
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .header-right {
+            display: flex;
+            font-size: 16px;
+            .select-province {
+                border-radius: 8px;
+                width: 176px;
+                height: 36px;
+                margin-top: 4px;
+                margin-right: 10px;
+            }
+            .header-right-search {
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(245,245,245,1.00);
+                border-radius: 27px;
+                padding: 10px;
+                input {
+                    font-size: 16px;
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .more-infor-clinic-body {
+        border-top: 1px solid #d5d5d5;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        .more-infor-clinic-child {
+            margin-top: 50px;
+            width: 25%;
+            .clinic-item {
+                cursor: pointer;
+                margin: 0 10px;
+                .clinic-image {
+                    background-size: contain !important;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    border:1px solid #d5d5d5;
+                    border-radius: 5px;
+                    height: 150px;
+                    width: 100%;
+                    padding: 0 10px;
+                    // background-image: url('../../../assets//medical-facility/lo-go-viet-duc.jpg');
+                }
+                .clinic-name {
+                    font-size: 16px;
+                    color: rgb(40, 49, 63);
+                    padding-top: 10px;
+                    font-weight: 700;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
