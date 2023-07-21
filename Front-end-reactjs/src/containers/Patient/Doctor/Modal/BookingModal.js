@@ -208,7 +208,7 @@ class BookingModal extends Component {
                                     </label>
                                     <input className='form-control'
                                         value={this.state.phoneNumber}
-                                        onChange={(event) => this.Input(event, 'phoneNumber')}
+                                        onChange={(event) => this.handleOnChangeInput(event, 'phoneNumber')}
                                     />
                                 </div>
                                 <div className='col-6 form-group'>
